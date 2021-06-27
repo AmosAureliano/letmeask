@@ -1,19 +1,19 @@
-import {RoomCode} from '../components/RoomCode';
-import { Button } from '../components/button';
-import { Question } from '../components/Question';
+import {RoomCode} from '../../components/RoomCode/index';
+import { Button } from '../../components/Button';
+import { Question } from '../../components/Question';
 
 import { FormEvent, useState } from 'react';
 
 import { useParams } from 'react-router-dom'
-import { useAuth } from '../hooks/useAuth';
-import { useRoom } from '../hooks/useRoom';
+import { useAuth } from '../../hooks/useAuth';
+import { useRoom } from '../../hooks/useRoom';
 
-import { database } from '../services/firebase';
+import { database } from '../../services/firebase';
 
 
-import logoImg from '../assets/images/logo.svg'
+import logoImg from '../../assets/images/logo.svg'
 
-import '../styles/room.scss';
+import './styles.scss';
 
 
 
